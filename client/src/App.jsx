@@ -170,7 +170,7 @@ function App() {
                 <div className="card project-card">
                   <img
                     src={project3}
-                    className="card-img-top"
+                    className="card-img-top card_img"
                     alt="Project 1"
                   />
                   <div className="card-body">
@@ -214,7 +214,7 @@ function App() {
                 <div className="card project-card">
                   <img
                     src={project2}
-                    className="card-img-top"
+                    className="card-img-top card_img"
                     alt="Project 1"
                   />
                   <div className="card-body">
@@ -236,7 +236,7 @@ function App() {
                 <div className="card project-card">
                   <img
                     src={project4}
-                    className="card-img-top"
+                    className="card-img-top card_img"
                     alt="Project 1"
                   />
                   <div className="card-body">
@@ -276,7 +276,7 @@ function App() {
                 <div className="card project-card">
                   <img
                     src="https://raw.githubusercontent.com/fhhimel/mern-ecommerce-website/main/preview_1.PNG"
-                    className="card-img-top"
+                    className="card-img-top card_img"
                     alt="Project 1"
                   />
                   <div className="card-body">

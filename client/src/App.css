@@ -40,6 +40,10 @@ section {
   height: 200px;
 }
 
+.project-card p {
+  height: 50px;
+}
+
 #contact {
   background: #333;
 }
