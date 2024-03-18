@@ -192,7 +192,7 @@ function App() {
                 <div className="card project-card">
                   <img
                     src={project1}
-                    className="card-img-top"
+                    className="card-img-top card_img"
                     alt="Project 1"
                   />
                   <div className="card-body">
@@ -201,6 +201,7 @@ function App() {
                       A platform for exploring travel blogs of favorite travel
                       destination. Developed in MERN stack technology.
                     </p>
+
                     <a
                       href="https://odyssey-guide.vercel.app/"
                       className="btn btn-dark"
