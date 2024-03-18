@@ -6,6 +6,8 @@ import profie_pic from "./assets/profile_pic.jpg";
 import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
+import project4 from "./assets/project4.png";
+import project5 from "./assets/project5.png";
 
 function App() {
   return (
@@ -167,6 +169,28 @@ function App() {
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
+                    src={project3}
+                    className="card-img-top"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Learning Management System</h5>
+                    <p className="card-text">
+                      A school management system. Now only UI part with React is
+                      on live. I'm working on backend functionality in NodeJS.
+                    </p>
+                    <a
+                      href="https://react-learning-management-system-nine.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
                     src={project1}
                     className="card-img-top"
                     alt="Project 1"
@@ -211,18 +235,57 @@ function App() {
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
-                    src={project3}
+                    src={project4}
                     className="card-img-top"
                     alt="Project 1"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">Learning Management System</h5>
+                    <h5 className="card-title">Quiz App</h5>
+                    <p className="card-text">A simple quiz web application.</p>
+                    <a
+                      href="https://react-quiz-app-seven-beta.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={project5}
+                    className="card-img-top"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Live Weather</h5>
                     <p className="card-text">
-                      A school management system. Now only UI part with React is
-                      on live. I'm working on backend functionality in NodeJS.
+                      Website for getting live weather data.
                     </p>
                     <a
-                      href="https://react-learning-management-system-nine.vercel.app/"
+                      href="https://react-weather-app-omega-liart.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src="https://raw.githubusercontent.com/fhhimel/mern-ecommerce-website/main/preview_1.PNG"
+                    className="card-img-top"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">MERN eCommerce</h5>
+                    <p className="card-text">
+                      An eCommerce website developed in MERN
+                    </p>
+                    <a
+                      href="https://react-weather-app-omega-liart.vercel.app/"
                       className="btn btn-dark"
                     >
                       Live Demo
