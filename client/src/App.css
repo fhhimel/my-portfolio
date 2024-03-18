@@ -29,10 +29,15 @@ section {
 /* Style for project cards */
 .project-card {
   transition: transform 0.3s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+}
+
+.card_img {
+  height: 200px;
 }
 
 #contact {
