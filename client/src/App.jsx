@@ -15,7 +15,7 @@ function App() {
       <div>
         {/* Navbar */}
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Fahim Hasan Himel
           </a>
           <button
@@ -88,14 +88,8 @@ function App() {
             <h2 className="text-center mb-4">Welcome!</h2>
             <div className="row">
               <div className="col-md-6">
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
                 <p className="about_text">
+                  <br />
                   Highly motivated and skilled fresher with a passion for
                   developing innovative software solutions. Proﬁcient in various
                   programming languages including C++, JavaScript and Python. I
@@ -103,7 +97,7 @@ function App() {
                   maintaining software, web as well as mobile applications.
                 </p>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 text-center">
                 <img
                   src={profie_pic}
                   alt="Profile Picture"
