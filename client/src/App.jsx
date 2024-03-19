@@ -7,9 +7,15 @@ import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
-import project5 from "./assets/project5.png";
+import project5 from "./assets/weather_app.png";
 import projectcar from "./assets/projectcar.png";
 import projecthd from "./assets/projecthd.png";
+import crypto_site from "./assets/crypto_site.png";
+import photography_site from "./assets/photography_site.png";
+import club_site from "./assets/club_site.png";
+import gym_site from "./assets/gym_site.png";
+import interior_site from "./assets/interior_site.png";
+import mic_site from "./assets/mic_shop.png";
 
 function App() {
   return (
@@ -174,6 +180,122 @@ function App() {
                     <p className="card-text">A platform for purchasing cars.</p>
                     <a
                       href="https://car-shop-plum.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={crypto_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Crypto Site</h5>
+                    <p className="card-text">A crypto currency site.</p>
+                    <a
+                      href="https://crypto-site-umber.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={photography_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Photography Site</h5>
+                    <p className="card-text">A Photography Site.</p>
+                    <a
+                      href="https://photography-site-sage.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={gym_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Gym Site</h5>
+                    <p className="card-text">A Gym Site.</p>
+                    <a
+                      href="https://gym-site-sigma.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={mic_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Microphone shop</h5>
+                    <p className="card-text">
+                      Website for purchasing microphone.
+                    </p>
+                    <a
+                      href="https://mic-site.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={interior_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Interior Site</h5>
+                    <p className="card-text">A Interior Design Company Site.</p>
+                    <a
+                      href="https://interior-site-rosy.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={club_site}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Club Site</h5>
+                    <p className="card-text">Website for a sport club.</p>
+                    <a
+                      href="https://club-site-zeta.vercel.app/"
                       className="btn btn-dark"
                     >
                       Live Demo
