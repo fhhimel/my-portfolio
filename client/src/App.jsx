@@ -8,6 +8,8 @@ import project2 from "./assets/project2.png";
 import project3 from "./assets/project3.png";
 import project4 from "./assets/project4.png";
 import project5 from "./assets/project5.png";
+import projectcar from "./assets/projectcar.png";
+import projecthd from "./assets/projecthd.png";
 
 function App() {
   return (
@@ -163,6 +165,46 @@ function App() {
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
+                    src={projectcar}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Car Shop</h5>
+                    <p className="card-text">A platform for purchasing cars.</p>
+                    <a
+                      href="https://car-shop-plum.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={projecthd}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Hoodie Shop</h5>
+                    <p className="card-text">
+                      Varieties of Hoodies are for sale.
+                    </p>
+                    <a
+                      href="https://hoodie-shop.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
                     src={project3}
                     className="card-img-top card_img"
                     alt="Project 1"
@@ -280,7 +322,7 @@ function App() {
                       An eCommerce website developed in MERN
                     </p>
                     <a
-                      href="https://react-weather-app-omega-liart.vercel.app/"
+                      href="https://github.com/fhhimel/mern-ecommerce-website"
                       className="btn btn-dark"
                     >
                       Live Demo
