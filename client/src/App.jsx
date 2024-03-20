@@ -95,7 +95,7 @@ function App() {
         {/* About Section */}
         <section id="about" className="py-5">
           <div className="container">
-            <h2 className="text-center mb-4">Welcome!</h2>
+            <h2 className="text-center mb-4">Welcome</h2>
             <div className="row">
               <div className="col-md-6">
                 <p className="about_text">
