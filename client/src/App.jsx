@@ -17,6 +17,7 @@ import gym_site from "./assets/gym_site.png";
 import interior_site from "./assets/interior_site.png";
 import mic_site from "./assets/mic_shop.png";
 import watch_store from "./assets/watch_store.png";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (
@@ -178,7 +179,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Car Shop</h5>
-                    <p className="card-text">A platform for purchasing cars.</p>
                     <a
                       href="https://car-shop-plum.vercel.app/"
                       className="btn btn-dark"
@@ -197,7 +197,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Crypto Site</h5>
-                    <p className="card-text">A crypto currency site.</p>
                     <a
                       href="https://crypto-site-umber.vercel.app/"
                       className="btn btn-dark"
@@ -216,7 +215,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Photography Site</h5>
-                    <p className="card-text">A Photography Site.</p>
                     <a
                       href="https://photography-site-sage.vercel.app/"
                       className="btn btn-dark"
@@ -235,7 +233,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Watch Store</h5>
-                    <p className="card-text">Website for watch shop.</p>
                     <a
                       href="https://watch-store-brown.vercel.app/"
                       className="btn btn-dark"
@@ -254,7 +251,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Gym Site</h5>
-                    <p className="card-text">A Gym Site.</p>
                     <a
                       href="https://gym-site-sigma.vercel.app/"
                       className="btn btn-dark"
@@ -273,9 +269,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Microphone shop</h5>
-                    <p className="card-text">
-                      Website for purchasing microphone.
-                    </p>
                     <a
                       href="https://mic-site.vercel.app/"
                       className="btn btn-dark"
@@ -294,7 +287,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Interior Site</h5>
-                    <p className="card-text">A Interior Design Company Site.</p>
                     <a
                       href="https://interior-site-rosy.vercel.app/"
                       className="btn btn-dark"
@@ -313,7 +305,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Club Site</h5>
-                    <p className="card-text">Website for a sport club.</p>
                     <a
                       href="https://club-site-zeta.vercel.app/"
                       className="btn btn-dark"
@@ -331,11 +322,7 @@ function App() {
                     alt="Project 1"
                   />
                   <div className="card-body">
-                    <h5 className="card-title">Learning Management System</h5>
-                    <p className="card-text">
-                      A school management system. Now only UI part with React is
-                      on live. I'm working on backend functionality in NodeJS.
-                    </p>
+                    <h5 className="card-title">Education Site</h5>
                     <a
                       href="https://react-learning-management-system-nine.vercel.app/"
                       className="btn btn-dark"
@@ -354,11 +341,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">OdysseyGuide</h5>
-                    <p className="card-text">
-                      A platform for exploring travel blogs of favorite travel
-                      destination. Developed in MERN stack technology.
-                    </p>
-
                     <a
                       href="https://odyssey-guide.vercel.app/"
                       className="btn btn-dark"
@@ -377,9 +359,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Hoodie Shop</h5>
-                    <p className="card-text">
-                      Varieties of Hoodies are for sale.
-                    </p>
                     <a
                       href="https://hoodie-shop.vercel.app/"
                       className="btn btn-dark"
@@ -399,10 +378,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">BloodCircle</h5>
-                    <p className="card-text">
-                      A platform for searching blood donors which is developed
-                      in MERN stack technology.
-                    </p>
                     <a
                       href="https://blood-circle.vercel.app/"
                       className="btn btn-dark"
@@ -421,7 +396,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Quiz App</h5>
-                    <p className="card-text">A simple quiz web application.</p>
                     <a
                       href="https://react-quiz-app-seven-beta.vercel.app/"
                       className="btn btn-dark"
@@ -440,9 +414,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">Live Weather</h5>
-                    <p className="card-text">
-                      Website for getting live weather data.
-                    </p>
                     <a
                       href="https://react-weather-app-omega-liart.vercel.app/"
                       className="btn btn-dark"
@@ -461,9 +432,6 @@ function App() {
                   />
                   <div className="card-body">
                     <h5 className="card-title">MERN eCommerce</h5>
-                    <p className="card-text">
-                      An eCommerce website developed in MERN
-                    </p>
                     <a
                       href="https://github.com/fhhimel/mern-ecommerce-website"
                       className="btn btn-dark"
@@ -510,9 +478,13 @@ function App() {
                   </button>
                 </form>
               </div>
-              <div className="col-md-6">
-                <h3>Email</h3>
-                <p>fhhimel18@gmail.com</p>
+              <div className="col-md-6 contact_section">
+                <h3>
+                  Email <span>(Click below to send me an email)</span>
+                </h3>
+                <p className="mail_section">
+                  <a href="mailto:fhhimel18@gmail.com">fhhimel18@gmail.com</a>
+                </p>
                 <h3>Phone</h3>
                 <p>+8801711188115</p>
                 <h3>Address</h3>
@@ -528,6 +500,7 @@ function App() {
           </div>
         </footer>
       </div>
+      <ScrollToTop />
     </>
   );
 }
