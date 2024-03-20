@@ -16,6 +16,7 @@ import club_site from "./assets/club_site.png";
 import gym_site from "./assets/gym_site.png";
 import interior_site from "./assets/interior_site.png";
 import mic_site from "./assets/mic_shop.png";
+import watch_store from "./assets/watch_store.png";
 
 function App() {
   return (
@@ -228,6 +229,25 @@ function App() {
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
+                    src={watch_store}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Watch Store</h5>
+                    <p className="card-text">Website for watch shop.</p>
+                    <a
+                      href="https://watch-store-brown.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
                     src={gym_site}
                     className="card-img-top card_img"
                     alt="Project 1"
@@ -306,27 +326,6 @@ function App() {
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
-                    src={projecthd}
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Hoodie Shop</h5>
-                    <p className="card-text">
-                      Varieties of Hoodies are for sale.
-                    </p>
-                    <a
-                      href="https://hoodie-shop.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
                     src={project3}
                     className="card-img-top card_img"
                     alt="Project 1"
@@ -369,6 +368,28 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="col-md-4">
+                <div className="card project-card">
+                  <img
+                    src={projecthd}
+                    className="card-img-top card_img"
+                    alt="Project 1"
+                  />
+                  <div className="card-body">
+                    <h5 className="card-title">Hoodie Shop</h5>
+                    <p className="card-text">
+                      Varieties of Hoodies are for sale.
+                    </p>
+                    <a
+                      href="https://hoodie-shop.vercel.app/"
+                      className="btn btn-dark"
+                    >
+                      Live Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
               <div className="col-md-4">
                 <div className="card project-card">
                   <img

@@ -1,5 +1,9 @@
 /* Custom CSS Styles */
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Add some margin to the top of each section */
 section {
   margin-top: 20px;
