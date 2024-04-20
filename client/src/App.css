@@ -52,7 +52,7 @@ section {
 /* Style for skill images */
 .skill-image {
   max-width: 50%;
-  height: 100px;
+  height: 80px;
   display: block;
   margin: 0 auto;
 }
@@ -107,6 +107,28 @@ footer {
 .form-control:focus {
   border-color: #007bff;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Adds */
+
+.logo-container {
+  display: flex; /* Arranges elements horizontally */
+  width: fit-content; /* Container shrinks to fit content */
+  margin: 0 auto; /* Centers the container horizontally */
+  animation: moveLogos rightToLeft 20s linear infinite; /* Calls the animation */
+}
+
+.logo-container img {
+  margin-right: 20px; /* Adds space between logos */
+}
+/* Adds */
+@keyframes moveLogos {
+  from {
+    transform: translateX(100%);
+  } /* Starts from 100% width offset (off-screen to the right) */
+  to {
+    transform: translateX(-50%);
+  } /* Ends at -50% width offset (off-screen to the left) */
 }
 
 /* Keyframes for animations */

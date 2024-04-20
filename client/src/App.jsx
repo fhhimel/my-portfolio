@@ -117,12 +117,13 @@ function App() {
             </div>
           </div>
         </section>
+
         {/* Skills Section */}
         <section id="skills" className="bg-light py-5">
           <div className="container">
             <h2 className="text-center mb-4">Skills</h2>
             <div className="row">
-              <div className="col-md-3">
+              <div className="col-md-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png"
                   alt="C++"
@@ -132,7 +133,7 @@ function App() {
                 <br />
                 <h4 className="text-center">C++</h4>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
                   alt="JS++"
@@ -142,7 +143,7 @@ function App() {
                 <br />
                 <h4 className="text-center">JavaScript</h4>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-2">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGgWCoikyxg3D_gT4XmcTinwbZBhtmWi92ad7YyB7Dmg&s"
                   alt="NodeJS"
@@ -152,7 +153,7 @@ function App() {
                 <br />
                 <h4 className="text-center">NodeJS</h4>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-2">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
                   alt="React"
@@ -161,6 +162,26 @@ function App() {
                 <br />
                 <br />
                 <h4 className="text-center">React</h4>
+              </div>
+              <div className="col-md-2">
+                <img
+                  src="https://w7.pngwing.com/pngs/67/315/png-transparent-flutter-hd-logo-thumbnail.png"
+                  alt="PHP"
+                  className="img-fluid skill-image"
+                />
+                <br />
+                <br />
+                <h4 className="text-center">Flutter</h4>
+              </div>
+              <div className="col-md-2">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"
+                  alt="PHP"
+                  className="img-fluid skill-image"
+                />
+                <br />
+                <br />
+                <h4 className="text-center">PHP</h4>
               </div>
             </div>
           </div>
