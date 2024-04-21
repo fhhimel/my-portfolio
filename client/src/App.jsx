@@ -353,24 +353,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
-                    src={project1}
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">OdysseyGuide</h5>
-                    <a
-                      href="https://odyssey-guide.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
+
               <div className="col-md-4">
                 <div className="card project-card">
                   <img
@@ -382,79 +365,6 @@ function App() {
                     <h5 className="card-title">Hoodie Shop</h5>
                     <a
                       href="https://hoodie-shop.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
-                    src={project2}
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">BloodCircle</h5>
-                    <a
-                      href="https://blood-circle.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
-                    src={project4}
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Quiz App</h5>
-                    <a
-                      href="https://react-quiz-app-seven-beta.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
-                    src={project5}
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">Live Weather</h5>
-                    <a
-                      href="https://react-weather-app-omega-liart.vercel.app/"
-                      className="btn btn-dark"
-                    >
-                      Live Demo
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card project-card">
-                  <img
-                    src="https://raw.githubusercontent.com/fhhimel/mern-ecommerce-website/main/preview_1.PNG"
-                    className="card-img-top card_img"
-                    alt="Project 1"
-                  />
-                  <div className="card-body">
-                    <h5 className="card-title">MERN eCommerce</h5>
-                    <a
-                      href="https://github.com/fhhimel/mern-ecommerce-website"
                       className="btn btn-dark"
                     >
                       Live Demo
